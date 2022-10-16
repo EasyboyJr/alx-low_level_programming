@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * entry - Print numbers 0 to 10
+ * main - Prints all strings from 0 to 9
  * Return: Always 0
  */
 int main(void)
