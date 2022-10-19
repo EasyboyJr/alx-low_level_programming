@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ * main - Print the alphabet in lowercase
+ */
+void print_alphabet(void)
+{
+	char ls;
+
+	for (ls = 'a'; ls <= 'z'; ls++)
+		_putchar(ls);
+
+	_putchar('\n');
+}
