@@ -7,12 +7,12 @@ i#include "main.h"
  */
 void reverse_array(int *a, int n)
 {
-	int ls, num;
+	int tmp, num;
 
 	for (num = n - 1; num >= n / 2; num--)
 	{
-		ls = a[n - 1 - num];
+		tmp = a[n - 1 - num];
 		a[n - 1 - num] = a[num];
-		a[num] = ls;
+		a[num] = tmp;
 	}
 }
